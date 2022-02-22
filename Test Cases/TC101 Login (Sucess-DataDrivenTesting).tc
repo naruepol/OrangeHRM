@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC101 Login (Sucesss-DataDrivenTesting)</name>
+   <name>TC101 Login (Sucess-DataDrivenTesting)</name>
    <tag>UC1</tag>
    <comment></comment>
    <testCaseGuid>bf45d947-dfed-4ab9-8f71-e840f3ac6549</testCaseGuid>

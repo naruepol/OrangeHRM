@@ -27,7 +27,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Us
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
+WebUI.verifyTextPresent('Dashboard', false)
+
+WebUI.takeScreenshot('C:\\Users\\lenovo\\Desktop\\TC101LoginSuccess.png')
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+
+WebUI.closeBrowser()
 
